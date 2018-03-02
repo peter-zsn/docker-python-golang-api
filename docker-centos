@@ -1,0 +1,5 @@
+vi /etc/sysconfig/docker-network
+
+# /etc/sysconfig/docker-network
+#DOCKER_NETWORK_OPTIONS=
+DOCKER_NETWORK_OPTIONS="-H unix:///var/run/docker.sock -H 0.0.0.0:2375"
